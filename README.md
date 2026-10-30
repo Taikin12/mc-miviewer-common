@@ -15,6 +15,7 @@ Shared so far:
   cross-plugin target (`CIF` / `MOL`)
 - `ElementInfo` — element colors / radii
 - `MolecularGeometry` — distance / angle / dihedral
+- `ThermalEllipsoid` — Uij eigendecomposition for thermal ellipsoids
 
 Next candidates: a generic `ModelRegistry<T extends SessionLike>`, display
 spawning helpers, and common parts of `ViewSession`.
